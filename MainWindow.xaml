@@ -1,0 +1,28 @@
+﻿<Window x:Class="WPF_laba14.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_laba14"
+        mc:Ignorable="d"
+        Title="Progress Bars" Height="450" Width="800">
+    <Grid>
+        <Grid>
+            <StackPanel>
+                <StackPanel>
+                    <Label Content="Увеличение ProgressBar на 1/5" FontWeight="SemiBold" Margin="5,5,5,0"/>
+                    <ProgressBar HorizontalAlignment="Left" Height="20" Margin="10,10,5,5" VerticalAlignment="Top" Width="200" Name="Task1ProgressBar"  Foreground="Crimson"/>
+                    <Button Content="Add" HorizontalAlignment="Left" Height="20" Margin="230,-25,5,5" VerticalAlignment="Top" Width="75" Click="ForTask1ProgressBarClick" Background="BlanchedAlmond" FontWeight="SemiBold"/>
+                </StackPanel>
+                
+                <StackPanel Margin="5">
+                    <Label Content="Увеличение ProgressBar на 1/20 каждую сек." FontWeight="SemiBold" Margin="5,5,5,0"/>
+                    <ProgressBar HorizontalAlignment="Left" Height="20" Margin="10,10,5,5" VerticalAlignment="Top" Width="200" Name="Task2ProgressBar" Maximum="100" Foreground="Crimson"/>
+                </StackPanel>
+            </StackPanel>
+
+            <Button Width="100" Height="25" Content="Exit" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="40,0,0,20" FontWeight="SemiBold" Background="Crimson" Click="Exit"/>
+            <Button Width="100" Height="25" Content="Task 3" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,0,40,20" FontWeight="SemiBold" Background="LightCyan" Click="Task3"/>
+        </Grid>
+    </Grid>
+</Window>

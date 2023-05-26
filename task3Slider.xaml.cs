@@ -22,14 +22,32 @@ namespace WPF_laba14
         public task3Slider()
         {
             InitializeComponent();
-
-
         }
 
         private void SliderValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
-            ((Slider)sender).SelectionEnd = e.NewValue;
+            double value = slider.Value;
 
+            Title = $"Value: {Math.Round(value, 1)}/10";
+        }
+
+        private void Exit(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
+
+        private void Task4(object sender, RoutedEventArgs e)
+        {
+            task4Calendar t4 = new();
+            t4.Show();
+            Close();
+        }
+
+        private void Task12(object sender, RoutedEventArgs e)
+        {
+            MainWindow t12 = new();
+            t12.Show();
+            Close();
         }
     }
 }

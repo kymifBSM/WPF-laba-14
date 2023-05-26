@@ -9,7 +9,11 @@
     <Grid>
         <StackPanel>
             <Label Content="Типо слайдер" FontWeight="SemiBold" Margin="5,5,5,0"/>
-            <Slider Value="0" Minimum="0" Maximum="100" SelectionStart="0" Height="20" Width="200" Margin="10,5,5,5" IsSelectionRangeEnabled="True" ValueChanged="SliderValueChanged" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <Slider x:Name="slider" Value="0" Minimum="0" Maximum="10" SelectionStart="0" Height="20" Width="200" Margin="10,5,5,5" IsSelectionRangeEnabled="True" ValueChanged="SliderValueChanged" HorizontalAlignment="Left" VerticalAlignment="Top"/>
         </StackPanel>
+
+        <Button Width="100" Height="25" Content="Exit" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0,0,0,20" FontWeight="SemiBold" Background="Crimson" Click="Exit"/>
+        <Button Width="100" Height="25" Content="Task 4" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,0,40,20" FontWeight="SemiBold" Background="LightCyan" Click="Task4"/>
+        <Button Width="100" Height="25" Content="Task 1-2" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="40,0,0,20" FontWeight="SemiBold" Background="LightCyan" Click="Task12"/>
     </Grid>
 </Window>

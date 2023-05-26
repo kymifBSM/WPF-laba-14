@@ -10,12 +10,18 @@
     <Compile Update="task3Slider.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="task4Calendar.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="task3Slider.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="task4Calendar.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

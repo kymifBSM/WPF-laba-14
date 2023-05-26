@@ -55,7 +55,7 @@ namespace WPF_laba14
             if(Task2ProgressBar.Value >= Task2ProgressBar.Maximum)
             {
                 timer.Stop();
-                MessageBox.Show("Всё хватит");
+                MessageBox.Show("That's enough!");
             }
         }
 

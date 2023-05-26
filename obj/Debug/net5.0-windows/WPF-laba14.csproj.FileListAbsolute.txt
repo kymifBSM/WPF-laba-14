@@ -21,3 +21,7 @@ C:\Users\user.COMP-02\source\repos\WPF-laba14\obj\Debug\net5.0-windows\WPF-laba1
 C:\Users\user.COMP-02\source\repos\WPF-laba14\obj\Debug\net5.0-windows\WPF-laba14.genruntimeconfig.cache
 C:\Users\user.COMP-02\source\repos\WPF-laba14\obj\Debug\net5.0-windows\task3Slider.g.cs
 C:\Users\user.COMP-02\source\repos\WPF-laba14\obj\Debug\net5.0-windows\task3Slider.baml
+C:\Users\user.COMP-02\source\repos\WPF-laba14\obj\Debug\net5.0-windows\task4Calendar.g.cs
+C:\Users\user.COMP-02\source\repos\WPF-laba14\obj\Debug\net5.0-windows\task4Calendar.baml
+C:\Users\user.COMP-02\source\repos\WPF-laba14\obj\Debug\net5.0-windows\WPF-laba14.csproj.AssemblyReference.cache
+C:\Users\user.COMP-02\source\repos\WPF-laba14\obj\Debug\net5.0-windows\task5Canvas.g.cs
